@@ -65,4 +65,4 @@ async function deleteMessage(receiptHandle) {
         console.error("Error deleting message:", error);
     }
 }
-setInterval(processDoubts(),5000);
+processDoubts();

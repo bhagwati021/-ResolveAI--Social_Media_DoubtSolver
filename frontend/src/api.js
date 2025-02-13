@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api/doubts";
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3002/api/doubts";
 
 export const submitDoubt = async (question) => {
     try {
